@@ -17,7 +17,7 @@ void main() {
   for (int i = 1; i <= num; i++) {
     String out = "";
 
-    if (i % 15 == 0) {
+    if (i % 3 == 0 && i % 5 == 0) {
       out += "fizzbuzz";
     } else if (i % 5 == 0) {
       out += "buzz";
